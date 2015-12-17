@@ -22,6 +22,13 @@ Provide permission to the folder
     
 Step 3: Place python files into the client server and create a crontab/scheduled task to send the ip address every 24 hours.
 
+Copy your python file "get_ip.py" into any directory, in this case "/home/user/myDir/get_ip.py"
 
+Create a crontab schedule for the python script to run every morning at 6.08am to update it's ip address into the ddns.txt
+
+    crontab -e
+    
+    ##Add this line to the bottom of the page###
+    08 06 * * * python /home/user/myDir/get_ip.py 
 
 More updates to come....
