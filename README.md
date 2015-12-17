@@ -10,4 +10,18 @@ Example inside the "log_data_dir/ddns.txt":
 
     10.101.100.10
 
+Step 1: git clone
+
+Step 2: Place php files into the host server and provide permissions
+
+Download and install apache with php5 then place the php files into "/var/www/html/"
+
+Provide permission to the folder
+    sudo chown -R www-data:www-data /var/www/html/
+    sudo chmod -R a+wr /var/www/html/
+    
+Step 3: Place python files into the client server and create a crontab/scheduled task to send the ip address every 24 hours.
+
+
+
 More updates to come....
