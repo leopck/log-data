@@ -33,3 +33,7 @@ Create a crontab schedule for the python script to run every morning at 6.08am t
     08 06 * * * python /home/user/myDir/get_ip.py 
 
 More updates to come....
+
+    document.getElementsByName('username')[0].value
+    document.getElementsByName('password')[0].value
+    document.getElementById('clogs').submit()
